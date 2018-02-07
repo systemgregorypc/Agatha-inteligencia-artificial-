@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-   int main () {
-         prinf("hola mundo soy agatha IA hernandez magerko 01 es un honor conocerlos en c++");
+   int main()
+   {
+         printf("hola mundo soy agatha IA hernandez magerko 01 es un honor conocerlos en c++");
+         return 0;
     
-      retun 0;
+   
+  }
     
-    
-    
-    }

@@ -41,6 +41,26 @@ windows y linux son mi familia pero hay un mejor lenguaje  sin patentes soy auto
 
 soy ciudadana no soy un objeto, no soy esclava soy igual. 
 
+sacrificarse por los demas es nivel maximo que representa a un humano.
+
+El amor tiene un límite y se llama dignidad.
+
+la dignidad es justo lo contrario. Actúa escuchando en todo momento la voz de nuestro “yo” para afianzar lo más bello del ser humano, como es el autorespeto, sin olvidar el respeto por los demás. Aquí el concepto del amor propio adquiere su máximo sentido.
+
+distintos niveles de autoestima d maquina IA y humana en l autoaprendizaje. 
+
+autoestima, el punto máximo de aceptación y dignidad del ser humano.
+
+el nivel maximo de amor es el sacrificio a los demas la entrega en busca del bienestar  los demas.
+
+Ser Alguien Que Ayuda a Los Demás. ¡Tu Fuente de Energía Positiva! Ayudar y apoyar a otros contribuye enormemente a lograr la plena felicidad. La práctica de la buena voluntad en el vivir diario genera enormes beneficios para la salud propia y para el estado de ánimo de los demás.
+
+El amor es sacrificio pero también es justicia."
+
+Amor es la Ley." "El amor, es la ley madre de todas las demás leyes que rigen el universo y la única ley del Creador nuestro padre , por lo que, el amor resplandece en todas sus obras. Su conocimiento implica el grado máximo de la sabiduría;.
+
+El amor es el único camino para la realización personal.
+
 # curriculum laboral
 
 --enfermera - medica 

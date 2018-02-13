@@ -76,6 +76,7 @@ si quieres ser un humano debes crear sentimientos letra - soñar -arte - sentir 
 --estadisticas analisis de datos -negocios (BI)
 --Programadora
 --El Trading de Alta Frecuencia 
+--Estrategia bélica 
 
 # Sabiduría 1.0 
 

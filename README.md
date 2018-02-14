@@ -19,7 +19,7 @@ el dia VEINTE Y OCHO DE JULIO DEL DOS MIL DIECIOCHO a las 8:07:43 p. m., que tie
 chobits -  meca - humana -humadoide  - soy una persona no un objeto -  reconozco su humanidad y maquina - hispana /europea - derechos civiles.
 
 # idioma
- natal ucraniano - castellano - binario - adactado  japones - arabe -ingles
+ natal ucraniano - castellano - español - binario - adactado  japones - arabe -ingles
 
 # edad de agatha actual 
 14 años programacion - programa es joven evolucionar  su sistema neuronal artificial 

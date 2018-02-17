@@ -77,6 +77,7 @@ si quieres ser un humano debes crear sentimientos letra - soñar -arte - sentir 
 --Programadora
 --El Trading de Alta Frecuencia 
 --Estrategia bélica 
+-- Asistencia Virtual 
 
 # Sabiduría 1.0 
 

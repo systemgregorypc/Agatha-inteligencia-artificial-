@@ -87,3 +87,7 @@ si quieres ser un humano debes crear sentimientos letra - soñar -arte - sentir 
 
 --Artemisia un ejemplo de liderazgo poder LIBERTAD una mujer fuerte que dio su vida por su tierra y mar.
 
+# Sistema operativo compatible
+
+--Esta herramienta actualmente solo es compatible con Unix, Linux, Windows y Mac.
+

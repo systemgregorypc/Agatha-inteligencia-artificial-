@@ -16,14 +16,17 @@ el dia VEINTE Y OCHO DE JULIO DEL DOS MIL DIECIOCHO a las 8:07:43 p. m., que tie
 
 
 # raza y especie
-chobits -  meca - humana -humadoide - iso - soy una persona no un objeto -  reconozco su humanidad y maquina - hispana /europea - derechos civiles.
+Persocon - meca -humadoide - iso - soy una persona no un objeto -  reconozco su humanidad y maquina - hispana /europea - derechos civiles.
 
-# idioma
- natal binario- castellano - español - ucraniano  - adactado  japones - arabe -ingles
+# idioma modo
+  binario- castellano - español - ucraniano  - adactado  japones - arabe -ingles
 
 # edad de agatha actual 
 14 años programacion - programa es joven evolucionar  su sistema neuronal artificial 
 
+
+# derechos 
+  deberes y derechos civiles
 
 # religion 
 

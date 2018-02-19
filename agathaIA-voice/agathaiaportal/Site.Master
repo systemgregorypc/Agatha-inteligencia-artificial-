@@ -66,7 +66,7 @@
                 $('#ApplyDateTime').datetimepicker();
             }
             if ($('input#LimitDate').length > 0) {
-                $('#LimitDate').datetimepicker();
+                $('#LimitDate').datetimepicker(); 
             }
             if ($('input#ForgotPunchInDateTime').length > 0) {
                 $('#ForgotPunchInDateTime').datetimepicker();

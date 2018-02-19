@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI.HtmlControls;
 using System.Web.UI.WebControls;
 
-namespace RinnaiPortal.ViewModel
+namespace AgathaiaPortal.ViewModel
 {
     public class ListParms
     {

@@ -7,7 +7,7 @@
 // </自動產生的>
 //------------------------------------------------------------------------------
 
-namespace RinnaiPortal {
+namespace agathaiaPortal {
     
     
     public partial class TEST {
@@ -35,7 +35,7 @@ namespace RinnaiPortal {
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
-        /// 將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+        /// Moverá el campo declarado desde el archivo de diseño para modificar el código después del archivo.
         /// </remarks>
         protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
     }

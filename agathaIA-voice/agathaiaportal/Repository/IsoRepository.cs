@@ -1,6 +1,6 @@
-﻿using RinnaiPortal.Entities;
-using RinnaiPortal.Enums;
-using RinnaiPortal.Models.IsoModels;
+﻿using agthaiaPortal.Entities;
+using agathaiaPortal.Enums;
+using agathaiaPortal.Models.IsoModels;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI.WebControls;
 
-namespace RinnaiPortal.Repository
+namespace agathaiaPortal.Repository
 {
     public class IsoRepository
     {

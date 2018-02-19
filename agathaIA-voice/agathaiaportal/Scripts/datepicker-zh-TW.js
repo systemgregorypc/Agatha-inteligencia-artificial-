@@ -34,4 +34,4 @@ datepicker.setDefaults( datepicker.regional[ "zh-TW" ] );
 
 return datepicker.regional[ "zh-TW" ];
 
-} ) );
+} ) ); 

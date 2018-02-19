@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RinnaiPortal {
+namespace AgathaiaPortal {
     
     
     public partial class ViewSwitcher {

@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using System.Web;
 
-namespace RinnaiPortal.ViewModel
+namespace AgathaiaPortal.ViewModel
 {
     public class MemberViewModel
     {

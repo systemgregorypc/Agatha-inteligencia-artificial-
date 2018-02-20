@@ -19,3 +19,4 @@ namespace RinnaiPortal.Entities
         public System.DateTime UP_DT { get; set; }
     }
 }
+ 

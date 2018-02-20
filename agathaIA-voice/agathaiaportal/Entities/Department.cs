@@ -35,4 +35,4 @@ namespace RinnaiPortal.Entities
     
         public virtual ICollection<Employee> Employee { get; set; }
     }
-}
+} 

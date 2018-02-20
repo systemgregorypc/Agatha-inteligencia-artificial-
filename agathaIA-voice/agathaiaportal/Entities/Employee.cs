@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RinnaiPortal.Entities
+namespace agathaiaPortal.Entities
 {
     using System;
     using System.Collections.Generic;

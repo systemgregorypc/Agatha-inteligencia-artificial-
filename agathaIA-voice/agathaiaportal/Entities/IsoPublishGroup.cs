@@ -19,3 +19,4 @@ namespace RinnaiPortal.Entities
         public int MAP_FILE_ID { get; set; }
     }
 }
+  

@@ -24,4 +24,4 @@ namespace RinnaiPortal.Entities
         public string URL_PATH { get; set; }
         public string UP_MODE { get; set; }
     }
-}
+} 

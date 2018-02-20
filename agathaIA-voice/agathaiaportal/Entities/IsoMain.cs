@@ -24,3 +24,4 @@ namespace RinnaiPortal.Entities
         public string REMARK { get; set; }
     }
 }
+  

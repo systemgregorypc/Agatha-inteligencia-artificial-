@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.Master" CodeBehind="IsoDefault.aspx.cs" Inherits="RinnaiPortal.Area.Iso.User.IsoDefault" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.Master" CodeBehind="IsoDefault.aspx.cs" Inherits="agathaiaPortal.Area.Iso.User.IsoDefault" %>
 
 <%@ Import Namespace="System.Collections.Generic" %>
 <%@ Import Namespace="RinnaiPortal.Entities" %>

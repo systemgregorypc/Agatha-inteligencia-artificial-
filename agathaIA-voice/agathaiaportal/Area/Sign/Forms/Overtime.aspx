@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Overtime.aspx.cs" Inherits="RinnaiPortal.Area.Sign.Forms.Overtime" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Overtime.aspx.cs" Inherits="agathaiaPortal.Area.Sign.Forms.Overtime" %>
 
 <asp:Content ID="OvertimeContent" ContentPlaceHolderID="MainContent" runat="server">
     <style type="text/css">

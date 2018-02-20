@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.Master" CodeBehind="IsoDocDetalis.aspx.cs" Inherits="RinnaiPortal.Area.Iso.User.IsoDocDetalis" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.Master" CodeBehind="IsoDocDetalis.aspx.cs" Inherits="agahaiaPortal.Area.Iso.User.IsoDocDetalis" %>
 
 <asp:Content ID="IsoDetalis" ContentPlaceHolderID="MainContent" runat="server">
 

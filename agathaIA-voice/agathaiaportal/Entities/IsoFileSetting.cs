@@ -24,4 +24,4 @@ namespace RinnaiPortal.Entities
         public string VERSION { get; set; }
         public string PAGE { get; set; }
     }
-}
+}  

@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace RinnaiPortal.Area.Iso.User
+namespace agathaiaPortal.Area.Iso.User
 {
     public partial class IsoDocView : System.Web.UI.Page
     {

@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RinnaiPortal.Entities
+namespace agathaPortal.Entities
 {
     using System;
     using System.Data.Entity;

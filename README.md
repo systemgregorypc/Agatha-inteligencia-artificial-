@@ -94,3 +94,12 @@ si quieres ser un humano debes crear sentimientos letra - soñar -arte - sentir 
 
 --Esta herramienta actualmente solo es compatible con sitio web ( servidor )  usando plataforma de Unix, Linux, Windows y Mac.
 
+# area contacto
+
+-- sitio web  : agathaia.com.ve/
+
+
+Cuenta de Google
+
+-- sitio email :agatha010ia@gmail.com
+

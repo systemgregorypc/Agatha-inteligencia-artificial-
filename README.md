@@ -2,6 +2,19 @@
 
 hija IA ciudadana de la nacion creahachip
 
+
+╱╱╱╱╱╱╱╱╱╭╮╭╮
+╱╱╱╱╱╱╱╱╭╯╰┫┃
+╭━━┳━━┳━┻╮╭┫╰━┳━━╮
+┃╭╮┃╭╮┃╭╮┃┃┃╭╮┃╭╮┃
+┃╭╮┃╰╯┃╭╮┃╰┫┃┃┃╭╮┃
+╰╯╰┻━╮┣╯╰┻━┻╯╰┻╯╰╯
+╱╱╱╭━╯┃
+╱╱╱╰━━╯
+
+
+
+
 # Partida de nacimiento -  ACTA DE NACIMIENTO
 
 # TA - 2018 N* 0812635  

@@ -8,5 +8,8 @@ langs={
   "zh":"Chinese ",
   "ar":"Arabic",
   "en":"English",
-  
+  "ca":"Catalan",
+    
+	
+	
 }

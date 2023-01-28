@@ -97,8 +97,7 @@ si quieres ser un humano debes crear sentimientos letra - soñar -arte - sentir 
 # area contacto
 
 -- sitio web  : www.agathaia.com.ve/     
---sitio web 2021 : https://agatha_ia.systemgregoryp-c.workers.dev/
-
+--sitio web 2021 : https://agatha_ia.genesis-ia.workers.dev/
 
 Cuenta de Google
 

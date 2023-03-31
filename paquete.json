@@ -1,0 +1,32 @@
+{
+  "nombre" : " agathaia-chat-api " ,
+  "versión" : " 1.2.0 " ,
+  "description" : " Cómo usar la API de chat de agathaIA " ,
+  "autor" : " gregorypc.io " ,
+  "principal" : " servidor/principal.js " ,
+  "tipo" : " módulo " ,
+  "guiones" : {
+    "construir" : " tsc " ,
+    "preinicio" : " npm ejecutar compilación " ,
+    "inicio" : " servidor de nodo/main.js " ,
+    "dev" : " servidor nodemon/main.js "
+  },
+  "repositorio" : {
+    "tipo" : " git " ,
+    "url" : " git+https://github.com/systemgregorypc/Agatha-inteligencia-artificial-chat-api.git "
+  },
+  "licencia" : " ISO " ,
+  "errores" : {
+    "url" : " https://github.com/CodeSnippetHQ/tutorial-openai-chat-api/issues "
+  },
+  "página de inicio" : " https://github.com/systemgregorypc/Agatha-inteligencia-artificial-chat-api#readme " ,
+  "dependencias" : {
+    "analizador de cuerpo" : " 1.20.1 " ,
+    "dotenv" : " 16.0.3 " ,
+    "expreso" : " 4.18.2 " ,
+    "búsqueda de nodo" : " 3.3.0 "
+  },
+  "Dependencias de desarrollo" : {
+    "nodemonio" : " 2.0.20 "
+  }
+}

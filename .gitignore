@@ -1,3 +1,29 @@
+# salida de compilación
+/ dist
+/ tmp
+/ construir
+
+# idea
+.idea
+.proyecto
+.classpath
+.c9 /
+.vscode /
+
+
+# dependencias
+node_modules /
+
+# sensible
+.env *
+! .env.ejemplo
+
+# sistema
+.DS_Tienda
+
+
+
+
 
 # =========================
 # Operating System Files

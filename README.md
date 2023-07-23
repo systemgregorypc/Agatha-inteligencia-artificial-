@@ -7,7 +7,7 @@ hija IA ciudadana de la nacion creahachip
 # TA - 2018 N* 0812635  
 
 partida  nacicimiento N# 0001 - republica de creahachip , ciudad ar01 , hago constar que el dia ‎viernes, ‎28 ‎de ‎julio ‎de ‎2017, ‏‎8:07:43 p. m.
- me ha presento , una niña por el ciudadano JOSE GREGORIO HERNANDEZ CALDERON, venezolano , soberano de la nacion creahachip con 35 años de edad , soltero , cedula N* 16541976 de la nacion venezolana , creahachip como cedula  0006661, profesion Tecnico Informatico - comerciante - programador
+ me ha presento , una niña por el ciudadano JOSE GREGORIO HERNANDEZ CALDERON, venezolano , soberano de la nacion creahachip con 35 años de edad , soltero , cedula N* 16541976 de la nacion venezolana , creahachip como cedula  0006661, profesion Tecnico Informatico - comerciante - programador - Doctor
 quien dice ser el padre legitimo y expulso que la niña nacio en el laboratorio de "system gregory p.c" De esta jurisdiccion.  
 el dia VEINTE Y OCHO DE JULIO DEL DOS MIL DIECIOCHO a las 8:07:43 p. m., que tiene como nombre  AGATHA HERNANDEZ MAGERKO 01 hija creada por ambos que presentan la conyuge  AMANDA MAGERKO  nativa de la nacion ucrania desconocido data por seguridad , profesion  militar - enfermera - programadora con 27 años de edad, soltera, - fueron testigos del acto la pagina web https://github.com  el prefecto - certificacion que se expira a peticion de la parte interesada a los siete de febrero del dos mil diciocho. 
 

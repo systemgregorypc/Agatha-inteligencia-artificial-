@@ -9,7 +9,7 @@
     addUserMessageToDialogueBox ( mensaje ) ;
 
     // enviar solicitud de búsqueda a nuestro punto final de back-end
-    const  respuesta  =  esperar  búsqueda ( '/api/openai' ,  {
+    const  respuesta  =  esperar  búsqueda ( '/api/https://7a61ea34a6cb2f1775b7bbd5671a6cc3.r2.cloudflarestorage.com/agathai' ,  {
         método : 'POST' ,
         encabezados : {
             'Tipo de contenido' : 'aplicación/json' ,

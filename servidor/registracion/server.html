@@ -1,4 +1,4 @@
-<?php
+<?html
     $username = "";
 	$email =""; 
 	$errors = array();
@@ -28,7 +28,7 @@
 	     if ($password_1 != $password_2) {  
 	     array_push($errors, "the two password do not match");
 	     }
-		 // if there a no errors, save user to database 
+		 //  if there a no errors, save user to database 
 		 if (count($errors) == 0=) {
 		     $password = md5($password_1); // encrypt password before storing in database (security)
 			 $sql = "INSERT INTO  users (username, email, password)

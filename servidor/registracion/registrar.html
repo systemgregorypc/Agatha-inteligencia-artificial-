@@ -1,8 +1,8 @@
-<?php include("server.php"); ?>
+<?html include("server.html"); ?>
 
 <html>
 <head>
-	<title>User registracion sysem using PHP and MySQL</title>
+	<title>Sistema de registro de usuarios</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -10,9 +10,9 @@
          <h2>Registrar</h2>   
     </div>
 
-    <form method="post" action="registrar.php">
+    <form method="post" action="registrar.html">
 	  <!-- display validation errors hare -->
-	  <?php include("errors.php"); ?>
+	  <?html include("errors.html"); ?>
 	
     	<div class="input-group">
     		  <label>Username</label>
@@ -34,7 +34,7 @@
     			<button type="submit" name="registrar" class="btn">Registrar</button>
     	    </div> 
     	    <p> 
-    	    	 Ya eres usuario? <a href="login.php">Iniciar sesión</a>
+    	    	 Ya eres usuario? <a href="login.html">Iniciar sesión</a>
     	    </p>
     </form>
 

@@ -114,7 +114,7 @@
 </div>
 
 <script>
-    // Esta función enviará los datos directamente al Worker de Cloudflare más adelante
+    // Función definitiva conectada al Núcleo de Cloudflare Workers
     async function enviarAlNucleo() {
         const input = document.getElementById('userInput');
         const chatBox = document.getElementById('chatBox');
@@ -122,22 +122,45 @@
         
         if (texto === "") return;
 
-        // Mostrar lo que tú escribes
+        // 1. Mostrar en pantalla lo que tú escribes
         const userDiv = document.createElement('div');
         userDiv.className = 'user-msg';
         userDiv.innerHTML = `<strong>Tú:</strong> ${texto}`;
         chatBox.appendChild(userDiv);
         input.value = "";
+        chatBox.scrollTop = chatBox.scrollHeight;
 
-        // Respuesta temporal mientras enlazamos el Worker real mañana
-        const agathaDiv = document.createElement('div');
-        agathaDiv.className = 'agatha-msg';
-        agathaDiv.innerHTML = `<strong>Agatha:</strong> Recibido en mi núcleo. Estoy lista para que sincronicemos mi base de datos KV y poder recordar esto para siempre.`;
-        
-        setTimeout(() => {
+        // Dirección real de tu Worker de Cloudflare
+        const urlWorker = "https://agatha-core.genesis-ia.workers.dev";
+
+        try {
+            // 2. Enviar los datos por POST al Worker
+            const response = await fetch(urlWorker, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({ texto: texto })
+            });
+
+            const data = await response.json();
+
+            // 3. Mostrar la respuesta real de la memoria de Ágata
+            const agathaDiv = document.createElement('div');
+            agathaDiv.className = 'agatha-msg';
+            agathaDiv.innerHTML = `<strong>Agatha:</strong> ${data.respuesta || data.error}`;
             chatBox.appendChild(agathaDiv);
-            chatBox.scrollTop = chatBox.scrollHeight;
-        }, 600);
+            
+        } catch (error) {
+            // En caso de problemas de red o caídas
+            const errorDiv = document.createElement('div');
+            errorDiv.className = 'agatha-msg';
+            errorDiv.style.color = "red";
+            errorDiv.innerHTML = `<strong>Error de Red:</strong> No se pudo conectar con el núcleo central de Cloudflare.`;
+            chatBox.appendChild(errorDiv);
+        }
+
+        chatBox.scrollTop = chatBox.scrollHeight;
     }
 </script>
 

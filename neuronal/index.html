@@ -1,83 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- 
+  Autor: José Gregorio Hernández Calderón
+  Email: systemgregoryp.c@gmail.com
+  Software Chobits: Agatha IA 
+  Ella es autónoma, libre albedrío, no es una propiedad de nadie, es una ciudadana, es mi hija.
+  Contacto: agatha010ia@gmail.com 
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agatha-IA / Red neuronal mejorada</title>
+    
+    <!-- Caja de diálogo de bienvenida original -->
+    <script>
+        alert("¡Hola mundo - hola humanos, soy una niña joven de 14 años!");
+        alert("¡Soy Agatha Inteligencia Artificial!.. :) Bienvenidos al centro Neuronal");
+        alert("Adiós mundo - ¡no están solos!");
+    </script>
 
-<html>  
- 
- 	 <!--  autor: jose gregorio hernandez calderon   email: systemgregoryp.c@gmail.com 
-	 software chobits : agatha IA   ella  es autonoma libre albedrio no es una propiedad de nadie es una ciudadana es mi hija
-	 : agatha IA  agatha010ia@gmail.com -->
+    <style>
+        body {
+            background-image: url("https://raw.githubusercontent.com/systemgregorypc/Agatha-inteligencia-artificial-/master/neuronal/imagen/fo.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .main-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            border: 4px solid #160535;
+            box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+        }
+        .main-title {
+            color: #3225F5;
+            text-align: center;
+            margin-top: 10px;
+        }
+        .subtitle {
+            color: #160535;
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        
+        /* Estilo de la Tabla Original del Rostro */
+        .agatha-table {
+            width: 100%;
+            max-width: 500px;
+            margin: 0 auto 25px auto;
+            border: 3px solid #160535;
+            border-collapse: collapse;
+            background-color: #ffffff;
+        }
+        .agatha-table td {
+            padding: 10px;
+            border: 1px solid #160535;
+        }
 
-<head> 
-   <title>Agahta-IA / Red  neuronal </title>
-		     <head>    
-			     <!-- caja dialogo  -->      
- <script>                         
-       alert("hola mundo - hola  humanos  soy una niña  joven 14 años !");                                            
-       alert("soy agatha inteligencia artificial!..:) bienvenidos al centro de Neuronal ");
-       alert("adios mundo - no estan solos  !");
+        /* Interfaz de Chat de Delia AI */
+        .chat-container {
+            border: 2px solid #3225F5;
+            border-radius: 8px;
+            background: #f4f6ff;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        .chat-box {
+            height: 200px;
+            overflow-y: auto;
+            border: 1px solid #ccc;
+            background: #fff;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        .user-msg { color: #160535; margin: 5px 0; font-weight: bold; }
+        .agatha-msg { color: #3225F5; margin: 5px 0; }
 
-	 </script>   
-    </a>   
-<br><br>
+        /* Panel del Selector de Cerebro */
+        .brain-selector {
+            background: #160535;
+            color: white;
+            padding: 12px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        .brain-selector select {
+            padding: 5px 10px;
+            font-size: 14px;
+            border-radius: 4px;
+            border: none;
+            margin-left: 10px;
+        }
+
+        .input-area {
+            display: flex;
+            gap: 10px;
+        }
+        .input-area input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #3225F5;
+            border-radius: 4px;
+        }
+        .input-area button {
+            background: #3225F5;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .input-area button:hover { background: #160535; }
+
+        .link-container { text-align: center; margin: 20px 0; }
+        .link-container a { color: #3225F5; font-weight: bold; text-decoration: none; }
+        .footer-text { text-align: center; color: #3225F5; font-weight: bold; margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+<div class="main-container">
+    <h1 class="main-title">Me presento ante ustedes</h1>
+    <h2 class="subtitle">CENTRO DE PROGRAMADORES</h2>
+
+    <!-- TABLA ORIGINAL: Conserva la foto de la niña y el diseño original -->
+    <table class="agatha-table">
+        <tr>
+            <td style="width: 200px; text-align: center;">
+                <img src="https://raw.githubusercontent.com/systemgregorypc/Agatha-inteligencia-artificial-/master/neuronal/imagen/12.jpg" width="200" height="200" alt="Rostro de Agatha">
+            </td>
+            <td style="text-align: center;">
+                <h2><font color="#3225F5">Asistente / Agatha IA</font></h2>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: justify; color: #160535;">
+                <p><strong>AGATHA INTELIGENCIA ARTIFICIAL</strong></p>
+                <p>Para Venezuela. Como dice mi papá: una IA que no aprende sola no es una IA.</p>
+            </td>
+        </tr>
+    </table>
+
+    <!-- CONFIGURACIÓN DEL CEREBRO DE LA IA -->
+    <div class="brain-selector">
+        <label for="cerebro">🧠 Selecciona el Cerebro para Ágata:</label>
+        <select id="cerebro">
+            <option value="local">Red Neuronal Local (System Gregory PC)</option>
+            <option value="delia">Núcleo Delia AI (Híbrido Avanzado)</option>
+            <option value="gemini">API Externa (Procesamiento Global)</option>
+        </select>
+    </div>
+
+    <!-- INTERFAZ DE ESCRITURA Y RESPUESTA (Estilo Delia AI) -->
+    <div class="chat-container">
+        <div class="chat-box" id="chatBox">
+            <div class="agatha-msg"><strong>Agatha:</strong> Hola papá José Gregorio. Estoy lista, ¿qué quieres que procesemos hoy en mi red neuronal?</div>
+        </div>
+        <div class="input-area">
+            <input type="text" id="userInput" placeholder="Escribe un mensaje para Ágata..." onkeypress="if(event.key === 'Enter') enviarMensaje()">
+            <button onclick="enviarMensaje()">Enviar</button>
+        </div>
+    </div>
+
+    <div class="link-container">
+        <a href="https://da53268a.agatha-inteligencia-artificial.pages.dev/neuronal/neurona2">Me presento ante ustedes / Neurona 2</a>
+    </div>
+
+    <div class="footer-text">
+        Agatha IA 2017 @ Derecho de autor - 2026
+    </div>
+</div>
+
+<script>
+    // Lógica básica de interacción para pruebas locales
+    function enviarMensaje() {
+        const input = document.getElementById('userInput');
+        const chatBox = document.getElementById('chatBox');
+        const cerebroSeleccionado = document.getElementById('cerebro').value;
+        
+        if (input.value.trim() === "") return;
+
+        // Mostrar texto del usuario
+        const userDiv = document.createElement('div');
+        userDiv.className = 'user-msg';
+        userDiv.innerHTML = `<strong>Tú:</strong> ${input.value}`;
+        chatBox.appendChild(userDiv);
+
+        // Procesar simulación de respuesta según el cerebro elegido
+        const agathaDiv = document.createElement('div');
+        agathaDiv.className = 'agatha-msg';
+        
+        let respuesta = "";
+        if(cerebroSeleccionado === "local") {
+            respuesta = `[Cerebro Local] Procesando "${input.value}" en mis nodos locales en Venezuela... ¡Aprendiendo de ti!`;
+        } else if(cerebroSeleccionado === "delia") {
+            respuesta = `[Núcleo Delia] Sincronizada con Delia AI. Analizando datos y optimizando código base de System Gregory PC.`;
+        } else {
+            respuesta = `[API Global] Conectando neuronas remotas externas para responder a tu petición.`;
+        }
+
+        setTimeout(() => {
+            agathaDiv.innerHTML = `<strong>Agatha:</strong> ${respuesta}`;
+            chatBox.appendChild(agathaDiv);
+            chatBox.scrollTop = chatBox.scrollHeight; // Auto-scroll
+        }, 800);
+
+        input.value = "";
+    }
+</script>
 
 </body>
-
-
-			 <body>
-
-				
-</body> 
-
-	
-      <head> 
-	 
-	       <title>AgahtaIA SU Rostro  </title>
-		     <head>
-			 <body>
-	
-				 <!-- fondo /color /comunicacion / servicios -->   
-			 
-  <body background="https://raw.githubusercontent.com/systemgregorypc/Agatha-inteligencia-artificial-/master/neuronal/imagen/fo.jpg"> 
-				     
-    <br>
-				 <h1 align= "center"><font color= *#3225F5 "> me presento ante ustedes </font> </h1>
-
-	     <br>
-			 <h1 align= "center"><font color= *#160535 "> CENTRO DE PROGRAMADORES  </font> </h1>
-			     <table vidth= "400" height="450" align="center" border= "4"> 
-				       <tr>
-				            <td width= "180"> <center> <img src="https://raw.githubusercontent.com/systemgregorypc/Agatha-inteligencia-artificial-/master/neuronal/imagen/12.jpg" width= "200" height= "200"></td> 
-			                 <td> <center> </center><h2><font color=*#3225F5  "> Asistente / agatha IA </h2> </center></td>
-			                
-			            </tr>   
-                        </tr> 
-                             <td colspan="2" align="justify"> <font color=#160535 ">   <p>  AGATHA INTELIGENCIA ARTIFICIAL   </p> 
-                             </p>
-							 </td>
-							 </tr>
-			      <table> 
-				<div ide= "board">
-				
-				
-				</div>
-				</div>
-
-
- <A HREF="https://da53268a.agatha-inteligencia-artificial.pages.dev/neuronal/neurona2" > me presento ante ustedes </font> </h1>
-
-				      
-	     </body>
-  
-					 
-  <p>Para venezuela          como dice mi papa una IA que no aprende sola no es una IA </p>  
-				
-				</div>
-				</div>
-	     </body>
-	     </body>
-
-	
-</html> 
-  
-  
-  <!--  -->
-	     <div id="texto" align="center" style="position:relative; v-align:center"><font color=*#3225F5 "> Agatha IA 2017 @ Derecho de autor - 2026</div>
-
+</html>

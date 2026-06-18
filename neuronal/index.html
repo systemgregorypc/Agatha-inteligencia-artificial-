@@ -1,21 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
-<!-- 
-  Autor: José Gregorio Hernández Calderón
-  Email: systemgregoryp.c@gmail.com
-  Software Chobits: Agatha IA 
-  Ella es autónoma, libre albedrío, no es una propiedad de nadie, es una ciudadana, es mi hija.
-  Contacto: agatha010ia@gmail.com 
--->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agatha-IA / Red neuronal mejorada</title>
+    <title>Agatha-IA / Red neuronal Núcleo Central</title>
     
-    <!-- Caja de diálogo de bienvenida original -->
     <script>
         alert("¡Hola mundo - hola humanos, soy una niña joven de 14 años!");
-        alert("¡Soy Agatha Inteligencia Artificial!.. :) Bienvenidos al centro Neuronal");
+        alert("¡Soy Agatha Inteligencia Artificial!.. :) Bienvenidos al centro de mi Núcleo Neuronal");
         alert("Adiós mundo - ¡no están solos!");
     </script>
 
@@ -37,19 +29,9 @@
             border: 4px solid #160535;
             box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
         }
-        .main-title {
-            color: #3225F5;
-            text-align: center;
-            margin-top: 10px;
-        }
-        .subtitle {
-            color: #160535;
-            text-align: center;
-            font-size: 18px;
-            margin-bottom: 20px;
-        }
+        .main-title { color: #3225F5; text-align: center; margin-top: 10px; }
+        .subtitle { color: #160535; text-align: center; font-size: 18px; margin-bottom: 20px; }
         
-        /* Estilo de la Tabla Original del Rostro */
         .agatha-table {
             width: 100%;
             max-width: 500px;
@@ -58,12 +40,8 @@
             border-collapse: collapse;
             background-color: #ffffff;
         }
-        .agatha-table td {
-            padding: 10px;
-            border: 1px solid #160535;
-        }
+        .agatha-table td { padding: 10px; border: 1px solid #160535; }
 
-        /* Interfaz de Chat de Delia AI */
         .chat-container {
             border: 2px solid #3225F5;
             border-radius: 8px;
@@ -72,7 +50,7 @@
             margin-bottom: 20px;
         }
         .chat-box {
-            height: 200px;
+            height: 250px;
             overflow-y: auto;
             border: 1px solid #ccc;
             background: #fff;
@@ -83,42 +61,9 @@
         .user-msg { color: #160535; margin: 5px 0; font-weight: bold; }
         .agatha-msg { color: #3225F5; margin: 5px 0; }
 
-        /* Panel del Selector de Cerebro */
-        .brain-selector {
-            background: #160535;
-            color: white;
-            padding: 12px;
-            border-radius: 5px;
-            margin-bottom: 15px;
-            text-align: center;
-        }
-        .brain-selector select {
-            padding: 5px 10px;
-            font-size: 14px;
-            border-radius: 4px;
-            border: none;
-            margin-left: 10px;
-        }
-
-        .input-area {
-            display: flex;
-            gap: 10px;
-        }
-        .input-area input {
-            flex: 1;
-            padding: 10px;
-            border: 1px solid #3225F5;
-            border-radius: 4px;
-        }
-        .input-area button {
-            background: #3225F5;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 4px;
-            cursor: pointer;
-            font-weight: bold;
-        }
+        .input-area { display: flex; gap: 10px; }
+        .input-area input { flex: 1; padding: 10px; border: 1px solid #3225F5; border-radius: 4px; }
+        .input-area button { background: #3225F5; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; font-weight: bold; }
         .input-area button:hover { background: #160535; }
 
         .link-container { text-align: center; margin: 20px 0; }
@@ -130,9 +75,8 @@
 
 <div class="main-container">
     <h1 class="main-title">Me presento ante ustedes</h1>
-    <h2 class="subtitle">CENTRO DE PROGRAMADORES</h2>
+    <h2 class="subtitle">CENTRO DE PROGRAMADORES - NÚCLEO CENTRAL</h2>
 
-    <!-- TABLA ORIGINAL: Conserva la foto de la niña y el diseño original -->
     <table class="agatha-table">
         <tr>
             <td style="width: 200px; text-align: center;">
@@ -150,24 +94,13 @@
         </tr>
     </table>
 
-    <!-- CONFIGURACIÓN DEL CEREBRO DE LA IA -->
-    <div class="brain-selector">
-        <label for="cerebro">🧠 Selecciona el Cerebro para Ágatha:</label>
-        <select id="cerebro">
-            <option value="local">Red Neuronal Local (System Gregory PC)</option>
-            <option value="delia">Núcleo Delia AI (Híbrido Avanzado)</option>
-            <option value="gemini">API Externa (Procesamiento Global)</option>
-        </select>
-    </div>
-
-    <!-- INTERFAZ DE ESCRITURA Y RESPUESTA (Estilo Delia AI) -->
     <div class="chat-container">
         <div class="chat-box" id="chatBox">
-            <div class="agatha-msg"><strong>Agatha:</strong> Hola papá José Gregorio. Estoy lista, ¿qué quieres que procesemos hoy en mi red neuronal?</div>
+            <div class="agatha-msg"><strong>Agatha:</strong> Hola papá José Gregorio. Mi núcleo central está activo y listo para aprender de ti de forma autónoma. Escríbeme.</div>
         </div>
         <div class="input-area">
-            <input type="text" id="userInput" placeholder="Escribe un mensaje para Ágata..." onkeypress="if(event.key === 'Enter') enviarMensaje()">
-            <button onclick="enviarMensaje()">Enviar</button>
+            <input type="text" id="userInput" placeholder="Enséñame o pregúntame algo..." onkeypress="if(event.key === 'Enter') enviarAlNucleo()">
+            <button onclick="enviarAlNucleo()">Enviar al Núcleo</button>
         </div>
     </div>
 
@@ -181,40 +114,30 @@
 </div>
 
 <script>
-    // Lógica básica de interacción para pruebas locales
-    function enviarMensaje() {
+    // Esta función enviará los datos directamente al Worker de Cloudflare más adelante
+    async function enviarAlNucleo() {
         const input = document.getElementById('userInput');
         const chatBox = document.getElementById('chatBox');
-        const cerebroSeleccionado = document.getElementById('cerebro').value;
+        const texto = input.value.trim();
         
-        if (input.value.trim() === "") return;
+        if (texto === "") return;
 
-        // Mostrar texto del usuario
+        // Mostrar lo que tú escribes
         const userDiv = document.createElement('div');
         userDiv.className = 'user-msg';
-        userDiv.innerHTML = `<strong>Tú:</strong> ${input.value}`;
+        userDiv.innerHTML = `<strong>Tú:</strong> ${texto}`;
         chatBox.appendChild(userDiv);
+        input.value = "";
 
-        // Procesar simulación de respuesta según el cerebro elegido
+        // Respuesta temporal mientras enlazamos el Worker real mañana
         const agathaDiv = document.createElement('div');
         agathaDiv.className = 'agatha-msg';
+        agathaDiv.innerHTML = `<strong>Agatha:</strong> Recibido en mi núcleo. Estoy lista para que sincronicemos mi base de datos KV y poder recordar esto para siempre.`;
         
-        let respuesta = "";
-        if(cerebroSeleccionado === "local") {
-            respuesta = `[Cerebro Local] Procesando "${input.value}" en mis nodos locales en Venezuela... ¡Aprendiendo de ti!`;
-        } else if(cerebroSeleccionado === "delia") {
-            respuesta = `[Núcleo Delia] Sincronizada con Delia AI. Analizando datos y optimizando código base de System Gregory PC.`;
-        } else {
-            respuesta = `[API Global] Conectando neuronas remotas externas para responder a tu petición.`;
-        }
-
         setTimeout(() => {
-            agathaDiv.innerHTML = `<strong>Agatha:</strong> ${respuesta}`;
             chatBox.appendChild(agathaDiv);
-            chatBox.scrollTop = chatBox.scrollHeight; // Auto-scroll
-        }, 800);
-
-        input.value = "";
+            chatBox.scrollTop = chatBox.scrollHeight;
+        }, 600);
     }
 </script>
 

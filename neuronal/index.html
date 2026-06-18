@@ -42,6 +42,20 @@
         }
         .agatha-table td { padding: 10px; border: 1px solid #160535; }
 
+        /* Nueva sección para las instrucciones */
+        .instructions-container {
+            background-color: #160535;
+            color: #ffffff;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border-left: 5px solid #3225F5;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        .instructions-container h3 { margin-top: 0; color: #f4f6ff; }
+        .code-example { background: rgba(255,255,255,0.2); padding: 2px 6px; border-radius: 4px; font-family: monospace; font-weight: bold; }
+
         .chat-container {
             border: 2px solid #3225F5;
             border-radius: 8px;
@@ -93,6 +107,16 @@
             </td>
         </tr>
     </table>
+
+    <!-- SECCIÓN DE INSTRUCCIONES AGREGADA ARRIBA DEL CHAT -->
+    <div class="instructions-container">
+        <h3>🧠 Instrucciones para interactuar con mi Núcleo</h3>
+        <ul>
+            <li><strong>Para enseñarme un concepto nuevo:</strong> Escribe la palabra reservada <span class="code-example">Aprende:</span> seguida de la pregunta o palabra, un signo igual (<span class="code-example">=</span>) y la respuesta que deseas que guarde.</li>
+            <li><em>Ejemplo:</em> <span class="code-example">Aprende: computación = Es el procesamiento automático de datos.</span></li>
+            <li><strong>Para consultar mi memoria:</strong> Escribe simplemente la palabra o pregunta que ya me has enseñado (por ejemplo: <span class="code-example">computación</span>) y yo buscaré la respuesta en mi base de datos KV.</li>
+        </ul>
+    </div>
 
     <div class="chat-container">
         <div class="chat-box" id="chatBox">

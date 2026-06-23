@@ -1,0 +1,16 @@
+Al hacer esto, Git "entenderá" que debe ignorar ese archivo y **nunca lo subirá a internet** aunque hagas `git push`.
+
+### ¿Cómo sabrán otros (o tú en otra PC) qué variables usar?
+Lo que se hace profesionalmente es crear un archivo llamado `.env.example`:
+
+1.  Copia tu archivo `.env`.
+2.  Cámbiale el nombre a `.env.example`.
+3.  **Borra el token real** y deja solo la estructura:
+    `CLOUDFLARE_API_TOKEN=PEGA_AQUI_TU_TOKEN`
+4.  Ese archivo `.env.example` **SÍ** lo puedes subir a GitHub sin miedo, porque no tiene tu llave real, solo le sirve de guía a otra persona (o a ti mismo en el futuro) para saber qué datos necesita el programa.
+
+**Resumen:**
+*   **`.env`**: Solo en tu computadora (Privado).
+*   **`.env.example`**: Puede ir a GitHub (Público/Guía).
+
+¿Te parece bien dejarlo configurado así para proteger la seguridad de tu proyecto en San Cristóbal?

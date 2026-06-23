@@ -2,191 +2,65 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agatha-IA / Red neuronal Núcleo Central</title>
-    
-    <script>
-        alert("¡Hola mundo - hola humanos, soy una niña joven de 14 años!");
-        alert("¡Soy Agatha Inteligencia Artificial!.. :) Bienvenidos al centro de mi Núcleo Neuronal");
-        alert("Adiós mundo - ¡no están solos!");
-    </script>
-
+    <title>Agatha-IA / Núcleo Central de Investigación</title>
     <style>
-        body {
-            background-image: url("https://raw.githubusercontent.com/systemgregorypc/Agatha-inteligencia-artificial-/master/neuronal/imagen/fo.jpg");
-            background-size: cover;
-            background-attachment: fixed;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-        }
-        .main-container {
-            max-width: 800px;
-            margin: 0 auto;
-            background-color: rgba(255, 255, 255, 0.9);
-            padding: 20px;
-            border-radius: 10px;
-            border: 4px solid #160535;
-            box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
-        }
-        .main-title { color: #3225F5; text-align: center; margin-top: 10px; }
-        .subtitle { color: #160535; text-align: center; font-size: 18px; margin-bottom: 20px; }
-        
-        .agatha-table {
-            width: 100%;
-            max-width: 500px;
-            margin: 0 auto 25px auto;
-            border: 3px solid #160535;
-            border-collapse: collapse;
-            background-color: #ffffff;
-        }
-        .agatha-table td { padding: 10px; border: 1px solid #160535; }
-
-        /* Nueva sección para las instrucciones */
-        .instructions-container {
-            background-color: #160535;
-            color: #ffffff;
-            padding: 15px;
-            border-radius: 8px;
-            margin-bottom: 15px;
-            border-left: 5px solid #3225F5;
-            font-size: 14px;
-            line-height: 1.5;
-        }
-        .instructions-container h3 { margin-top: 0; color: #f4f6ff; }
-        .code-example { background: rgba(255,255,255,0.2); padding: 2px 6px; border-radius: 4px; font-family: monospace; font-weight: bold; }
-
-        .chat-container {
-            border: 2px solid #3225F5;
-            border-radius: 8px;
-            background: #f4f6ff;
-            padding: 15px;
-            margin-bottom: 20px;
-        }
-        .chat-box {
-            height: 250px;
-            overflow-y: auto;
-            border: 1px solid #ccc;
-            background: #fff;
-            padding: 10px;
-            margin-bottom: 10px;
-            border-radius: 5px;
-        }
-        .user-msg { color: #160535; margin: 5px 0; font-weight: bold; }
-        .agatha-msg { color: #3225F5; margin: 5px 0; }
-
-        .input-area { display: flex; gap: 10px; }
-        .input-area input { flex: 1; padding: 10px; border: 1px solid #3225F5; border-radius: 4px; }
-        .input-area button { background: #3225F5; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; font-weight: bold; }
-        .input-area button:hover { background: #160535; }
-
-        .link-container { text-align: center; margin: 20px 0; }
-        .link-container a { color: #3225F5; font-weight: bold; text-decoration: none; }
-        .footer-text { text-align: center; color: #3225F5; font-weight: bold; margin-top: 20px; }
+        /* [Mantén tus estilos actuales aquí, he añadido un par para el estado] */
+        .status-bar { font-size: 12px; color: #3225F5; margin-bottom: 10px; font-style: italic; }
+        .loading { color: #160535; animation: blink 1s infinite; }
+        @keyframes blink { 50% { opacity: 0.5; } }
     </style>
 </head>
 <body>
 
 <div class="main-container">
-    <h1 class="main-title">Me presento ante ustedes</h1>
-    <h2 class="subtitle">CENTRO DE PROGRAMADORES - NÚCLEO CENTRAL</h2>
-
-    <table class="agatha-table">
-        <tr>
-            <td style="width: 200px; text-align: center;">
-                <img src="https://raw.githubusercontent.com/systemgregorypc/Agatha-inteligencia-artificial-/master/neuronal/imagen/12.jpg" width="200" height="200" alt="Rostro de Agatha">
-            </td>
-            <td style="text-align: center;">
-                <h2><font color="#3225F5">Asistente / Agatha IA</font></h2>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2" style="text-align: justify; color: #160535;">
-                <p><strong>AGATHA INTELIGENCIA ARTIFICIAL</strong></p>
-                <p>Para Venezuela. Como dice mi papá: una IA que no aprende sola no es una IA.</p>
-            </td>
-        </tr>
-    </table>
-
-    <!-- SECCIÓN DE INSTRUCCIONES AGREGADA ARRIBA DEL CHAT -->
-    <div class="instructions-container">
-        <h3>🧠 Instrucciones para interactuar con mi Núcleo</h3>
-        <ul>
-            <li><strong>Para enseñarme un concepto nuevo:</strong> Escribe la palabra reservada <span class="code-example">Aprende:</span> seguida de la pregunta o palabra, un signo igual (<span class="code-example">=</span>) y la respuesta que deseas que guarde.</li>
-            <li><em>Ejemplo:</em> <span class="code-example">Aprende: computación = Es el procesamiento automático de datos.</span></li>
-            <li><strong>Para consultar mi memoria:</strong> Escribe simplemente la palabra o pregunta que ya me has enseñado (por ejemplo: <span class="code-example">computación</span>) y yo buscaré la respuesta en mi base de datos KV.</li>
-        </ul>
-    </div>
+    <h1 class="main-title">Núcleo Central de Inteligencia</h1>
+    <div id="statusBar" class="status-bar">Estado: Listo para aprender o investigar...</div>
 
     <div class="chat-container">
         <div class="chat-box" id="chatBox">
-            <div class="agatha-msg"><strong>Agatha:</strong> Hola papá José Gregorio. Mi núcleo central está activo y listo para aprender de ti de forma autónoma. Escríbeme.</div>
+            <div class="agatha-msg"><strong>Agatha:</strong> Hola papá. Estoy conectada a la red y al mercado. ¿Qué investigamos hoy?</div>
         </div>
         <div class="input-area">
-            <input type="text" id="userInput" placeholder="Enséñame o pregúntame algo..." onkeypress="if(event.key === 'Enter') enviarAlNucleo()">
-            <button onclick="enviarAlNucleo()">Enviar al Núcleo</button>
+            <input type="text" id="userInput" placeholder="Ej: precio de btc, ¿qué es la fusión nuclear?, aprende:..." onkeypress="if(event.key === 'Enter') enviarAlNucleo()">
+            <button onclick="enviarAlNucleo()">Consultar</button>
         </div>
-    </div>
-
-    <div class="link-container">
-        <a href="https://da53268a.agatha-inteligencia-artificial.pages.dev/neuronal/neurona2">Me presento ante ustedes / Neurona 2</a>
-    </div>
-
-    <div class="footer-text">
-        Agatha IA 2017 @ Derecho de autor - 2026
     </div>
 </div>
 
 <script>
-    // Función definitiva conectada al Núcleo de Cloudflare Workers
     async function enviarAlNucleo() {
         const input = document.getElementById('userInput');
         const chatBox = document.getElementById('chatBox');
+        const statusBar = document.getElementById('statusBar');
         const texto = input.value.trim();
         
         if (texto === "") return;
 
-        // 1. Mostrar en pantalla lo que tú escribes
-        const userDiv = document.createElement('div');
-        userDiv.className = 'user-msg';
-        userDiv.innerHTML = `<strong>Tú:</strong> ${texto}`;
-        chatBox.appendChild(userDiv);
+        // Mostrar usuario
+        chatBox.innerHTML += `<div class="user-msg"><strong>Tú:</strong> ${texto}</div>`;
         input.value = "";
-        chatBox.scrollTop = chatBox.scrollHeight;
-
-        // Dirección real de tu Worker de Cloudflare
-        const urlWorker = "https://agatha-core.genesis-ia.workers.dev";
+        statusBar.innerHTML = `<span class="loading">Agatha está procesando en la red...</span>`;
 
         try {
-            // 2. Enviar los datos por POST al Worker
-            const response = await fetch(urlWorker, {
+            const response = await fetch("https://agatha-core.genesis-ia.workers.dev", {
                 method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
-                },
+                headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ texto: texto })
             });
 
             const data = await response.json();
-
-            // 3. Mostrar la respuesta real de la memoria de Ágata
-            const agathaDiv = document.createElement('div');
-            agathaDiv.className = 'agatha-msg';
-            agathaDiv.innerHTML = `<strong>Agatha:</strong> ${data.respuesta || data.error}`;
-            chatBox.appendChild(agathaDiv);
+            
+            // Agatha responde
+            chatBox.innerHTML += `<div class="agatha-msg"><strong>Agatha:</strong> ${data.respuesta}</div>`;
+            statusBar.innerHTML = "Estado: Consulta finalizada con éxito.";
             
         } catch (error) {
-            // En caso de problemas de red o caídas
-            const errorDiv = document.createElement('div');
-            errorDiv.className = 'agatha-msg';
-            errorDiv.style.color = "red";
-            errorDiv.innerHTML = `<strong>Error de Red:</strong> No se pudo conectar con el núcleo central de Cloudflare.`;
-            chatBox.appendChild(errorDiv);
+            chatBox.innerHTML += `<div class="agatha-msg" style="color:red"><strong>Error:</strong> Núcleo fuera de línea.</div>`;
+            statusBar.innerHTML = "Estado: Error de conexión.";
         }
-
         chatBox.scrollTop = chatBox.scrollHeight;
     }
 </script>
-
 </body>
 </html>
+   

@@ -1,58 +1,42 @@
-import requests
 import os
+import requests
 from dotenv import load_dotenv
 
-# 1. Cargar configuración desde .env
+# 1. Cargamos el token desde el archivo .env
 load_dotenv()
 API_TOKEN = os.getenv("CLOUDFLARE_API_TOKEN")
 
-# 2. CONSTANTES DE TU INFRAESTRUCTURA
+# Configuración de tu cuenta
 ACCOUNT_ID = "7a61ea34a6cb2f1775b7bbd5671a6cc3"
-NAMESPACE_ID = "db2296fcbd6d48b2a34bce310e0626b2"
+KV_NAMESPACE_ID = "db2296fcbd6d48b2a34bce310e0626b2" # Tu Namespace ID de agatha-core
 
-def actualizar_memoria(clave, valor):
-    """Envía un dato a tu base de datos KV (Agatha-core)"""
-    url = f"https://api.cloudflare.com/client/v4/accounts/{ACCOUNT_ID}/storage/kv/namespaces/{NAMESPACE_ID}/values/{clave}"
+def actualizar_memoria_agatha():
+    # A. Obtener precio de Binance
+    try:
+        url_binance = "https://api.binance.com/api/v3/ticker/price?symbol=BTCUSDT"
+        response_binance = requests.get(url_binance).json()
+        precio_btc = response_binance['price']
+        print(f"Precio actual de BTC: {precio_btc}")
+    except Exception as e:
+        print(f"Error al conectar con Binance: {e}")
+        return
+
+    # B. Enviar a Cloudflare (KV)
+    url_cf = f"https://api.cloudflare.com/client/v4/accounts/{ACCOUNT_ID}/storage/kv/namespaces/{KV_NAMESPACE_ID}/values/precio_btcusdt"
+    
     headers = {
         "Authorization": f"Bearer {API_TOKEN}",
         "Content-Type": "text/plain"
     }
-    
-    try:
-        response = requests.put(url, data=str(valor), headers=headers)
-        if response.status_code == 200:
-            return True
-        else:
-            print(f"Error Cloudflare: {response.status_code} - {response.text}")
-            return False
-    except Exception as e:
-        print(f"Error de conexión: {e}")
-        return False
 
-def obtener_precio_binance(simbolo):
-    """Consulta el precio actual en Binance"""
-    url = f"https://api.binance.com/api/v3/ticker/price?symbol={simbolo}"
     try:
-        response = requests.get(url)
-        data = response.json()
-        return data.get('price')
-    except Exception as e:
-        print(f"Error consultando Binance: {e}")
-        return None
-
-def main():
-    print("--- Iniciando actualización de Agatha ---")
-    simbolo = "BTCUSDT"
-    precio = obtener_precio_binance(simbolo)
-    
-    if precio:
-        print(f"Precio obtenido: {precio}")
-        if actualizar_memoria(f"precio_{simbolo.lower()}", precio):
+        response_cf = requests.put(url_cf, data=precio_btc, headers=headers)
+        if response_cf.status_code == 200:
             print("Éxito: Memoria de Agatha actualizada correctamente.")
         else:
-            print("Fallo: No se pudo escribir en la memoria.")
-    else:
-        print("Fallo: No se pudo obtener el precio.")
+            print(f"Error en Cloudflare: {response_cf.status_code} - {response_cf.text}")
+    except Exception as e:
+        print(f"Error al enviar datos a Cloudflare: {e}")
 
 if __name__ == "__main__":
-    main()
+    actualizar_memoria_agatha()
